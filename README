@@ -1,0 +1,8 @@
+This is a simple class for creating a sprite object for use in a pygame project.
+This class supports transparency, animations, and movement on a screen.
+Give a sprite instance a screen, image file, position and resolution (based on the image file).
+Animations must be added separately, with an animation name, number of frames, and duration of each frame. Animations can then be fed to sprites for use.
+In this way, ALL animation frames for any single sprite object can be loaded in with a single png file. The default alpha value is purple (255, 0, 255).
+The limitations are that each frame is restricted to being the same size, and running for the same duration of time.
+
+The sprite class has an update() method, which should be run every tick of game time.
